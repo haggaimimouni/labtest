@@ -1,0 +1,7 @@
+rapport lab10 Haggai MIMOUNI
+
+3. make : execute le makefile
+	make install: creer les fichier binaire dans le repertoire ciblé ici /home/haggai
+	make min.o : cree le fichier binaire min.o
+	make clean : active l'opération clean du make file
+

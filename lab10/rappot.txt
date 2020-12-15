@@ -1,0 +1,10 @@
+Rapport lab10 
+
+Haggai MIMOUNI
+
+3) make: excute le fichier makefile, "min.o est a jours"
+make install: install les fichier .o dans $Home
+make min.o : met à jour min.o
+make clean: affiche la demande sur clean ici : *.o
+
+Lorsque l'on ne précise pas de cible min.o est tjs ciblé

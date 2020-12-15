@@ -1,0 +1,42 @@
+rapport lab9 
+
+Haggaï Mimouni
+
+2)gcc -fPIC -c [fichier]
+
+3) gcc -shared -o libhaggai.so max.o min.o variance.o
+
+4) sudo mv libhaggai.so /opt/lib
+
+6) La bibliotheque n'est pas trouvée
+
+7)Il n'ya rien dans la variable d'environement 
+ echo LD_LiBRARY_PATH
+
+8) export LD_LIBRARY_PATH = /opt/lib/libhaggai.so
+
+9) On a tjs le meme probleme
+
+10) commande : export LD_LIBRARY_PATH = /opt/lib
+
+11) locate libm.so 
+
+localisation : /usr/lib/x86_64-linux-gnu/libm.so
+
+12) Soname:  libm.so.6
+    Nom réel : libm.so.6
+
+13) chmod +w libhaggai.so
+
+14) cd /usr/bin ldconfig
+
+15) ldconfig -p|grep libhaggai.so
+
+16) ldd libhaggai.so
+
+17) unset LD_LIBRARY_PATH
+
+18) gcc main.c -L/usr/bin/lib -I/opt/include -lhaggai -o main.exe
+
+19) ./main.exe
+

@@ -1,0 +1,33 @@
+Rapport Lab8
+
+Haggai Mimouni
+
+1) cp max.h max.c min.h min.c lab8
+
+2) gcc -c min.c
+   gcc -c max.c
+
+3) ar r liboutils.a min.o max.o
+
+4) ar t liboutils.a
+
+5) ranlib liboutils.a
+
+cette index sert à lister tous les symboles définies par l'archive et qui sont des fichier objet relogeable
+
+7)sudo mkdir include lib
+
+8) sudo mv /home/Bureau/lab8/min.h max.h include
+   sudo mv /home/Bureau/lab8/liboutils lib
+
+9)gcc main.c -L/opt/lib -I/opt/include -loutils -o main.exe
+
+10) ./main.exe
+
+11) gcc -c variance.c 
+ar r liboutils.a variance.o
+
+12) ar t liboutils.a
+
+13) ranlib liboutils.a
+    nm -s liboutils.a

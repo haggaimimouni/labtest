@@ -1,0 +1,13 @@
+rapport lab7
+
+haggai Mimouni
+
+4) -E cree les fichier .i  
+   -S cree les ficher assembleur .s
+   -c cree les fichier binaire .o
+
+5) au niveau du préprocesseur car il va créer le fichier binaire
+
+8) compialtion: gcc min.c max.c variance.c test.o
+   cree un fichier exectutable a.out on apple: ./a.out
+

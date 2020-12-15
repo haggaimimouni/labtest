@@ -1,0 +1,22 @@
+rapport lab6 
+
+Haggai Mimouni
+
+1) env  variable $Home= /home/haggai
+
+2) echo $Path 
+retourne une liste de chemin d'accés vers des répertoires contenant des executables, ceci est l'orde de recherche des commande
+
+3) #!/bin/bash 
+	ls
+4)sudo mv Path.sh /opt 
+
+5)il faut l'ajouter au bin à partir de /opt: sudo cp Path.sh /usr/local/bin
+
+et de n'import où on execute: /usr/local/bin/ Patch.sh
+
+6) il manque les droit d'accés
+
+7) chmod +x 
+
+8) execution correcte

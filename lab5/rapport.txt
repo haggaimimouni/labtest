@@ -1,0 +1,8 @@
+rapport lab5
+
+haggai Mimouni
+
+1)vim master.sh
+
+6) wget url |grip htlink.jpg
+ eog nom-image.jpg

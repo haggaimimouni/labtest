@@ -1,0 +1,73 @@
+Rapport lab3
+
+Haggaï MIMOUNI
+
+3) git clone https://github.com/khachicha/5AS05-partie3.git
+
+4)ls 
+il y a un repertoire et 4 fichier
+
+ls -lrt
+taille: dossier sardar 4096 oct
+	fichier lightbulb 41 oct
+	fichier README.md 24 oct
+	fichier aswering-machine.txt 70430 oct 
+	fichier Microsoft 34359 oct
+
+5) taille incorrect, sur les proprité du fichier on a 13.8 ko
+
+6)  
+   du Microsoft : 36
+   ls -lrt : taille microsoft 34359 oct
+
+du est l'estimation de la taille tandis que ls est la taille réel 
+
+7)Fichier : Microsoft
+   Taille : 34359     	Blocs : 72         Blocs d'E/S : 4096   fichier
+Périphérique : 801h/2049d	Inœud : 793867      Liens : 1
+Accès : (0644/-rw-r--r--)  UID : ( 1000/  haggai)   GID : ( 1000/  haggai)
+Accès : 2020-12-14 17:47:33.890431000 +0100
+Modif. : 2020-10-13 10:09:01.791848000 +0200
+Changt : 2020-12-14 17:47:33.934431634 +0100
+
+On a 793867 Inode, inode contient les métadonné notament les droits d'accés.
+
+8)ls -a le fichier .lightbulb est caché
+
+
+9) ls -lart
+
+10)ls -larS
+
+11) cat answering-machine.txt
+
+12) more answering-machine.txt
+
+21) grep trust Microsof
+
+22) grep money
+
+23)grep Money .
+
+24) mv .lightbulb lightbulb
+
+26) mv sardar.txt
+
+27) cd ..
+
+28) rm Microsoft
+
+29) tar cvf archive 5AS05-partie3
+
+30) ln -s sardar3.txt sardar2.txt sardar.txt lien1
+
+
+34 et 35) afficher les droit d'accées ls -l, il manque le droit d'ecriture on a que celui de lecture, il faut l'ajouter, on fait sudo chmod -rx
+
+36)tar.bz2 tvf archive2
+
+37) tar tvf archive2.tar.bz2
+
+
+
+
