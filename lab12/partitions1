@@ -1,0 +1,6 @@
+label: dos
+label-id: 0x64fb4ed9
+device: /dev/sdc1
+unit: sectors
+
+/dev/sdc1p1 : start=        2048, size=    31106048, type=1e, bootable
